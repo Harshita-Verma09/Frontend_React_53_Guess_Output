@@ -1,12 +1,35 @@
-# React + Vite
+#  JavaScript Output Guesser
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun React-based quiz app that tests your understanding of tricky JavaScript output questions. Enter your guess and see if you can beat the JS quirks!
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 5 built-in JavaScript questions.
+- Instant feedback on answers.
+- Ability to cycle through questions.
+- Clean and responsive UI with Tailwind CSS.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js and npm installed.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/js-output-guesser.git
+   cd js-output-guesser.
+
+
+### File Structure
+bash
+Copy
+Edit
+src/
+├── GuessOutput.jsx   # Main component with quiz logic
+└── App.js            # Renders GuessOutput
+
+   
+
